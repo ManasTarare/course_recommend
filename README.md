@@ -63,7 +63,7 @@ Generated files include `generated_course.md` and `generated_course.json`. The r
 
 ## Technology
 
-Python, Google Colab, pandas, NumPy, scikit-learn, XGBoost, DuckDB, Gradio, Sentence Transformers, OpenSearch, Gemini, PyPDF, and python-docx.
+Python, Google Colab, pandas, NumPy, scikit-learn, XGBoost, DuckDB, Gradio, Sentence Transformers, OpenSearch, Gemini, PyPDF, python-docx, AWS EC2, Amazon S3, and IAM.
 
 ## Configuration and data handling
 
@@ -75,3 +75,11 @@ Python, Google Colab, pandas, NumPy, scikit-learn, XGBoost, DuckDB, Gradio, Sent
 ## Scope
 
 This is a notebook-based prototype. The notebooks cover course data collection, feature preparation, model training and evaluation, interactive structure recommendation, and optional RAG-based course drafting. They are run as separate stages and exchange data through generated files.
+
+## AWS Deployment
+
+The project was deployed on AWS using:
+
+- **Amazon EC2** to host and run the application.
+- **Amazon S3** for cloud storage.
+- **AWS IAM roles and permissions** to control access to AWS resources.
